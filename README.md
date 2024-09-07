@@ -1,1 +1,1 @@
-A landing page website as part of The Odin Project foundations course
+Designing a landing page website as part of a project from The Odin Project foundations course
