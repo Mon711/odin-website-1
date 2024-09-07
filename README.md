@@ -1,1 +1,1 @@
-A landig page website as part of The Odin Project foundations course 
+A landing page website as part of The Odin Project foundations course
