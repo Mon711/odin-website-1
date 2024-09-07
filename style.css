@@ -1,12 +1,15 @@
 body {
+    font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Navigation Bar */
+
 .logo {
-    font-size: large;
+    font-size: 24px;
     font-weight: 900;
-    color: white;
+    color: #f9faf8;
 }
 
 .navbar {
@@ -17,10 +20,65 @@ body {
 }
 
 .header-links ul {
+    font-size: 18px;
+    color: #e5e7eb;
     list-style-type: none;
-    font-weight: lighter;
     display: flex;
-    gap: 16px;
+    gap: 22px;
     margin: 0;
-    color: rgb(182, 182, 182);
+    padding-top: 3px;
+}
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    gap: 64px;
+}
+
+/* Hero Section One */
+.sec-one {
+    flex-basis: 460px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: 600;
+    padding: 8px 33px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+/* Hero Section Two */
+
+.sec-two {
+    flex-basis: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 225px;
 }
