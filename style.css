@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-/* Navigation Bar */
+/* ------------ Navigation Bar ------------ */
 
 .logo {
     font-size: 24px;
@@ -29,7 +29,7 @@ body {
     padding-top: 3px;
 }
 
-/* Hero Section */
+/* ------------ Hero Section ------------ */
 
 .hero {
     display: flex;
@@ -41,8 +41,8 @@ body {
     gap: 64px;
 }
 
-/* Hero Section One */
-.sec-one {
+/* ---- Hero Section One ---- */
+.hero .sec-one {
     flex-basis: 460px;
     display: flex;
     flex-direction: column;
@@ -72,13 +72,52 @@ body {
     font-size: 17px;
 }
 
-/* Hero Section Two */
+/* ---- Hero Section Two ---- */
 
-.sec-two {
+.hero .sec-two {
     flex-basis: 480px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: grey;
     height: 225px;
+}
+
+/* ------------ Information Section ------------ */
+
+
+.information {
+    height: 450px;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 40px 0;
+}
+
+.info-sections {
+    display: flex;
+    justify-content: center;
+    gap: 46px;
+}
+
+.info-section {
+    flex-basis: 180px;
+}
+
+.info-img {
+    /* width: 20px; */
+    height: 170px;
+    background-color: white;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.info-subtext {
+    text-align: center;
+    margin-top: 10px;
+    color: grey;
 }
