@@ -184,3 +184,15 @@ body {
     border-radius: 8px;
     padding: 5px 30px;
 }
+
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    color: rgb(196, 196, 196);
+    background-color: #1F2937;
+    height: 100px;
+}
